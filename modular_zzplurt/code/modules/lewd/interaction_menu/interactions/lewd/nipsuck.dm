@@ -19,7 +19,7 @@
 	user_arousal = 2
 	target_pleasure = 3
 	target_arousal = 5
-
+/* BLUEMOON COMMENTED OUT для исправления ошибки компилирования. Смотреть modular_zzz\code\modules\lewd\interaction_menu\interactions\lewd\nipsuck.dm
 /datum/interaction/lewd/nipsuck/act(mob/living/user, mob/living/target)
 	var/list/original_messages = message.Copy()
 
@@ -99,3 +99,4 @@
 
 		if(arousal_messages)
 			message = list(pick(arousal_messages))
+*/
